@@ -33,3 +33,12 @@ class Banco:
 
     def creditar(self, numero, valor):
         conta = self.procurar_conta(numero)
+
+    def saldo(self):
+        pass
+
+    def transferir(self):
+        pass
+
+    def render_bonus(self, numero):
+
