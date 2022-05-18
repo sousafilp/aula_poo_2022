@@ -1,4 +1,7 @@
-class Conta:
+from src.conta.conta_abstrata import ContaAbstrata
+
+
+class Conta(ContaAbstrata):
 
     def __init__(self, numero):
         self.__numero = numero
